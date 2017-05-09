@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Art Stock</title>
+  <script src="https://use.fontawesome.com/b7472aa0a9.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="iphone">
+    <div class="iphone-top"> <span class="camera"></span> <span class="sensor"></span> <span class="speaker"></span> </div>
+    <div class="top-bar"></div>
+    <div class="iphone-screen">
+      <!-- app content -->
+      <div class="app">
+        <div class="box">
+          <div class="spacer"></div>
+
+          <!-- Menu Screen -->
+          <div class="profileImage demo menuItem"><img src="logo.png"></div>
+          <div class="homeBG demo menuItem"><img src="home.png"></div>
+
+          <!-- Machines Screen -->
+            <div style="display:none" class="machineImage"><img src="logo.png"></div>
+            <div id="map">
+                <img class="nymap" src="nymap.png">
+                <!-- Three Schools when NY is clicked -->
+                  <img style="display:none" class="parsonDropdown dropClick" src="pText.png">
+                  <img style="display:none" class="dropClick" src="sText.png">
+                  <img style="display:none" class="dropClick" src="prText.png">
+                <!-- End Three Schools-->
+                <img class="basemap" src="map.png">
+                <img class="parsonmap" src="parsonsMap.png">
+                <img style="display:none" class="parsonDirections" src="parsonDirections.png">
+                <img style="display:none" class="pYellow" src="pYellow.png">
+                <img class="visualmap" src="visualArtsMap.png">
+                <img class="heremap" src="hereText.png">
+            </div>
+
+          <!-- Pay Screen -->
+          <div id="payContainer">
+            <div class="payImg"><img src="payTitle.png"></div>
+            <div class="payBG"><img src="QRCODE.png"></div>
+          </div>
+
+          <!-- Saved Item Screen -->
+          <div id="productContainer">
+            <div class="productImg"><img src="savedTitle.png"></div>
+            <div id="productThumbs">
+              <img id="product1" class="productThumbsImg" src="product1.png"/>
+              <img id="product2" class="productThumbsImg" src="product2.png"/>
+            </div>
+            <div id="productInfo">
+              <img style="padding-bottom:5px;" src="availableText.png"/>
+              <img id="parson" style="padding-bottom:5px;" src="parsonsText.png"/>
+              <img id="scad" style="padding-bottom:5px;" src="scadText.png"/>
+              <img style="padding-bottom:5px;" src="prattText.png"/>
+              <img src="calText.png"/>
+            </div>
+          </div>
+
+          <!-- Product Screen -->
+          <div id="savedContainer">
+            <div class="savedImg"><img src="productTitle.png"></div>
+          </div>
+
+          <!-- Scroll -->
+          <div id="scrollContainer">
+                <div class="scroll-bar-wrap">
+                  <div class="scroll-box">
+                    <!-- Clickable-->
+                    <img class="product-1" src="p1.png">
+                    <img class="product-2" src="p2.png">
+                    <img class="product-3" src="p3.png">
+                    <!-- Not Clickable -->
+                    <img src="p4.png">
+                    <img src="p5.png">
+                    <img src="p6.png">
+                    <img src="p7.png">
+                    <img src="p8.png">
+                  </div>
+                  <div class="cover-bar"></div>
+                </div>
+                <!-- Product Images -->
+                <div class="detailss">
+                <img style="display:none" class="p1detail detail" src="p1-detail.png">
+                <img style="display:none" class="p2detail detail" src="p2-detail.png">
+                <img style="display:none" class="p3detail detail" src="p3-detail.png">
+                <img style="display:none" class="save saved" src="savedItem.png">
+                <img style="display:none;margin-top:50%;" class="save save-detail" src="saved.png">
+              </div>
+          </div>
+        </div> <!-- end box -->
+        <div class="appMenu menuItem">
+          <div class="row1">
+            <a id="menu_machines_btn"><img id="menu_machines_img" src="menu_machines.png"></a>
+            <a id="menu_saved_btn"><img id="menu_saved_img" src="menu_products.png"></a>
+            <a id="menu_pay_btn"><img id="menu_pay_img" src="menu_pay.png"></a>
+            <a id="menu_products_btn"><img id="menu_products_img" src="menu_saved.png"></a>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script>
+<script src="js/index.js"></script>
+</body>
+</html>

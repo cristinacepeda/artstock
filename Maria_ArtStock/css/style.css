@@ -1,0 +1,457 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  background: #262626 url("http://oi64.tinypic.com/i3zbs7.jpg");
+  -webkit-tap-highlight-color: rgba( 0, 0, 0, 0);
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.iphone {
+  box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.), 0 0 0 1px #999, 0 0 30px 0px rgba(0, 0, 0, 0.7);
+  border: 5px solid #262626;
+  background: #000000;
+  padding: 15px;
+  border-radius: 50px;
+  height: 877px;
+  width: 423px;
+  position: relative;
+  margin: 30px auto;
+  transform: scale(.8);
+}
+
+.iphone-top {
+  padding: 5px 110px 40px;
+  position: relative;
+}
+
+.speaker {
+  display: block;
+  width: 70px;
+  height: 6px;
+  margin: 0 auto;
+  border-radius: 6px;
+  background: #292728;
+}
+
+.camera {
+  display: block;
+  margin: 0 auto;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-bottom: 13px;
+  background: #333;
+}
+
+.sensor {
+  display: block;
+  width: 15px;
+  height: 15px;
+  float: left;
+  background: #333;
+  margin-top: -5px;
+  border-radius: 50%;
+}
+
+.top-bar,
+.bottom-bar {
+  display: block;
+  width: 423px;
+  height: 15px;
+  border: {
+    left: 5px solid #BBB;
+    right: 5px solid #BBB;
+    position: absolute;
+    left: -5px;
+  }
+}
+
+.top-bar {
+  top: 65px;
+}
+
+.phoneButton {
+  position: relative;
+  top: 20px;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  border: 1px solid #262626;
+  border-radius: 50%;
+  background: -webkit-radial-gradient(black, #222222);
+  /* For Safari */
+  background: -o-radial-gradient(black, #222222);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-radial-gradient(black, #222222)
+  /* For Firefox 3.6 to 15 */
+  background: radial-gradient(black, #222222);
+  /* Standard syntax (must be last) */
+  box-shadow: inset 0px 1px .5px 1px black;
+}
+
+
+/*----------------------------------- screen ----*/
+
+.iphone-screen {
+  height: 677px;
+  width: 375px;
+  margin: 0 auto;
+  border: 2px solid rgba(0, 0, 0, 0.9);
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #000000;
+  position: relative;
+}
+
+
+/*---- app -----*/
+.box {
+  background: #fff;
+  border-radius: 0;
+  font-size: 1em;
+  color: #262626;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+  letter-spacing: 1.5px;
+}
+
+.spacer {
+  margin: auto;
+  width: 100%;
+  height: 200px;
+}
+
+.profileImage {
+  display: block;
+  margin: auto;
+  position: relative;
+  bottom: 160px;
+}
+
+#map {
+  position: relative;
+}
+
+.basemap {
+  position: absolute;
+  left: 0;
+  margin-top: -11px;
+}
+.parsonmap {
+  position: absolute;
+  left: 35px;
+  margin-top: 45%;
+  z-index: 100;
+}
+.parsonDirections {
+  position: absolute;
+  left: 35px;
+  margin-top: 30%;
+  z-index: 100;
+}
+.pYellow {
+  position: absolute;
+  right: 85px;
+  margin-top: 40%;
+  z-index: 100;
+}
+.visualmap {
+  position: absolute;
+  right: 35px;
+  margin-top: 20%;
+  z-index: 100;
+}
+.heremap {
+  position: absolute;
+  left: 65px;
+  margin-top: 75%;
+  z-index: 100;
+}
+.nymap {
+  /*position: absolute;*/
+  /*top: ;*/
+  left: 0;
+  z-index: 100;
+}
+
+.machineImage {
+  display: block;
+  margin: auto;
+  position: relative;
+  margin-top: -160px;
+}
+
+.payImg {
+  display: block;
+  margin: auto;
+  right:90px;
+  position: relative;
+  bottom: 160px;
+}
+
+.savedImg {
+  display: block;
+  margin: auto;
+  right:90px;
+  position: relative;
+  margin-top: -160px;
+}
+
+.productImg {
+  display: block;
+  margin: auto;
+  right:90px;
+  position: relative;
+  margin-top: -160px;
+}
+
+#productInfo {
+  padding-top: 20px;
+}
+.productThumbsImg {
+  padding-top: 5px;
+    display: inline-block;
+    position: relative;
+  margin: auto;
+}
+
+.homeBG {
+  display: block;
+  margin: auto;
+  position: relative;
+  bottom: 160px;
+}
+
+.payBG {
+  display: block;
+  margin: auto;
+  position: relative;
+  bottom: 105px;
+}
+
+.box h1 {
+  margin: -10px auto 5px;
+}
+
+.box span {
+  font-size: 1em;
+}
+
+a.button {
+  font-size: 1em;
+  padding: 8px;
+  width: 120px;
+  display: block;
+  border-radius: 2px;
+  margin: 30px auto;
+  background-color: #ffab00;
+  letter-spacing: 2px;
+}
+
+.foot {
+  border-top: 0.5px solid #e6e6e6;
+  margin: 30px auto 0px;
+  border-bottom: 0.5px solid #e6e6e6;
+  letter-spacing: 1.5px;
+}
+
+.foot2 {
+  margin: 0 auto;
+  letter-spacing: 1.5px;
+}
+
+.foot,
+.foot2 {
+  width: 85%;
+  font-size: 10px;
+}
+
+.left,
+.right {
+  display: inline-block;
+  width: 49%;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.left {
+  border-right: 0.5px solid #e6e6e6;
+}
+
+.fa-chevron-left {
+  padding: 14px;
+}
+
+.fa-chevron-right {
+  padding: 10px;
+}
+.app {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+}
+
+.appMenu {
+  width: 100%;
+  background: white;
+  position: absolute;
+  bottom: 0;
+  font-size: 0;
+}
+
+.appMenu a {
+  display: inline-block;
+  width: 25%;
+  height: 125px;
+  padding: 10px 0;
+  text-align: center !important;
+  background-color: white;
+  line-height: 26px;
+}
+
+
+#nav-toggle {
+  cursor: pointer;
+}
+
+.row2, .row3{
+  border-top: 1px solid #222222;
+}
+.row2, .row3, .text {
+  display:none;
+}
+
+.row3 {
+  height: 80px;
+  background-color: #222222;
+  border-top: 1px solid #222222;
+}
+
+.text {
+  font-size: 12px;
+  color: gray;
+}
+
+.focused {
+  background-color: #222222 !important;
+  color: gray !important;
+}
+
+.display {
+  display: none;
+}
+
+.head {
+  content: "";
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 15px 20px;
+  background: url("http://imworld.aufeminin.com/dossiers/D20101109/JUPITERIMAGES-08749547-191316_L.jpg") no-repeat center;
+  background-size: 50px;
+  border-radius: 100%;
+}
+
+.name {
+  color: #fff !important;
+  font-size: 14px !important;
+  margin-top: 27px;
+
+}
+
+.name span {
+  font-size: 10px;
+}
+
+.fa-external-link {
+  font-size: 22px;
+  color: #fff;
+  position: relative;
+  left: 230px;
+  bottom: 26px;
+}
+
+.detail {
+  width: 100%;
+  margin: auto;
+  margin-top:30px;
+}
+
+.save-detail {
+  margin-top: 50%;
+}
+
+.saved {
+  margin-top: 40px;
+}
+
+.save {
+  display: block;
+   margin: auto;
+}
+
+/* SCROLL BAR */
+/* squeezes content into certain width     */
+.scroll-bar-wrap {
+  width: 370px;
+  position: relative;
+}
+
+
+/* squeezes content into certain height       */
+.scroll-box {
+  width: 100%;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+
+/* dictates width of scroll bar upon hovering inside text box */
+.scroll-box::-webkit-scrollbar {
+  width: .4em;
+}
+
+
+/* how round scroll bar is.... aka border-radius     */
+.scroll-box::-webkit-scrollbar,
+.scroll-box::-webkit-scrollbar-thumb {
+  overflow: visible;
+  border-radius: 4px;
+}
+
+
+/* color of scrollbar     */
+.scroll-box::-webkit-scrollbar-thumb {
+  background: rgba(63, 70, 98, 0.19);
+}
+
+
+/* background color of panel scroll bar sits on as well as transitiong of scroll bar off the screen when not hovered upno     */
+.cover-bar {
+  position: absolute;
+  background: #fff;
+  height: 100%;
+  top: 0;
+  right: 0;
+  width: .4em;
+  -webkit-transition: all .3s;
+  opacity: 1;
+}
+
+
+/* tranisition of scroll bar upon being hovered on     */
+.scroll-bar-wrap:hover .cover-bar {
+  opacity: 0;
+  -webkit-transition: all .3s;
+}
